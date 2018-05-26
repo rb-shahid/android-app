@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/change_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="80.25dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/group11"
+                android:drawableLeft="@drawable/go12"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableRight="@drawable/mobile12"
+                android:gravity="center|right"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="@string/btn_re_enter_mobile"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_18sdp" />
+
+            <Button
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/change_mobile_number"
+                android:background="@drawable/group11"
+                android:drawableLeft="@drawable/go12"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableRight="@drawable/about12"
+                android:gravity="center|right"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="@string/title_about_us"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_18sdp" />
+
+            <Button
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/about_us"
+                android:background="@drawable/group11"
+                android:drawableLeft="@drawable/go12"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableRight="@drawable/cont12"
+                android:gravity="center|right"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="@string/tv_contact_details"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_18sdp" />
+
+            <Button
+                android:id="@+id/share_App"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/contact_us"
+                android:background="@drawable/group11"
+                android:drawableLeft="@drawable/go12"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableRight="@drawable/shar12"
+                android:gravity="center|right"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="@string/share_app_tv"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_18sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/share_App"
+               >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:text="Cv1.2.1" />
+
+                <Button
+                    android:id="@+id/application_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@drawable/group11"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableRight="@drawable/app12"
+                    android:gravity="center|right"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:text="@string/tv_version_name"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_18sdp" />
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

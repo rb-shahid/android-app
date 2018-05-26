@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_15sdp"
+    tools:context="co.dtechsystem.carefer.UI.Activities.ShopsListFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+
+        <TextView
+            android:id="@+id/tv_location_name_shops_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:maxLines="2"
+            android:text="الرياض"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:textColor="#5e5e5e"
+            android:layout_marginLeft="@dimen/_2sdp"
+            />
+
+        <Spinner
+            android:id="@+id/sp_city_name_shops_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:layout_toLeftOf="@+id/tv_location_name_shops_list"
+            android:textAlignment="gravity"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+        </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/tv_total_results_shops_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="@string/tv_total_results"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:textColor="#5e5e5e"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/lay_pull_refresh_shops_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_shop_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

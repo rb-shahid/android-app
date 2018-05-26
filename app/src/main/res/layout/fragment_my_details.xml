@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_35sdp">
+
+    <TextView
+        android:id="@+id/tv_name_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_name"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textColor="#d2d1d1"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingRight="@dimen/_16sdp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_user_name_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="right"
+        android:paddingRight="@dimen/_16sdp"
+        android:text="عمر التركي"
+        android:textStyle="bold"
+        android:textColor="#5e5e5e"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_14sdp"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:enabled="false"
+        android:backgroundTint="@android:color/transparent"
+
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74aaaaaa"
+        />
+
+    <TextView
+        android:id="@+id/tv_car_brand_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_car_brand"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textColor="#d2d1d1"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingRight="@dimen/_16sdp"
+
+        />
+
+    <TextView
+        android:id="@+id/et_car_brand_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GMC"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_14sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="#5e5e5e"
+        android:inputType="text"
+        android:enabled="false"
+        android:maxLines="1"
+
+        />
+
+    <Spinner
+        android:id="@+id/sp_brand_type_shop_details_order"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dr_spinner_ic"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74aaaaaa"
+        />
+
+    <TextView
+        android:id="@+id/tv_car_model_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_car_model"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textColor="#d2d1d1"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingRight="@dimen/_16sdp"
+
+        />
+
+    <TextView
+        android:id="@+id/et_car_model_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="350"
+        android:clickable="true"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:textColor="#5e5e5e"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:inputType="numberDecimal"
+        android:maxEms="4"
+        android:maxLines="1"
+        android:enabled="false"
+
+        />
+
+    <Spinner
+        android:id="@+id/sp_car_model_order"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/dr_spinner_ic"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74aaaaaa"
+        />
+
+    <TextView
+        android:id="@+id/tv_last_oil_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_last_changed_oil"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textColor="#d2d1d1"
+        android:textSize="@dimen/_12sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingRight="@dimen/_16sdp"
+
+        />
+
+    <TextView
+        android:id="@+id/et_last_oil_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="17/9/2017"
+        android:clickable="true"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_14sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textStyle="bold"
+        android:inputType="date"
+        android:textColor="#5e5e5e"
+        android:maxLines="1"
+        android:enabled="false"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74aaaaaa"
+        />
+
+    <TextView
+        android:id="@+id/tv_km_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="@dimen/_16sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:text="@string/tv_km_after_oil_change"
+        android:textAlignment="gravity"
+        android:textColor="#d2d1d1"
+        android:textSize="@dimen/_12sdp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_oil_change_km_my_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="130000"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/_14sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="#5e5e5e"
+        android:inputType="numberDecimal"
+        android:digits="0123456789"
+        android:maxLines="1"
+        android:enabled="false"
+        android:backgroundTint="@android:color/transparent"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#74aaaaaa"
+        />
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingRight="@dimen/_30sdp"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:background="#ff9501"
+        android:gravity="center"
+        android:text="@string/btn_save_changes"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:visibility="gone"
+        />
+</LinearLayout>
+
+</ScrollView>

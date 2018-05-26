@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/_10sdp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <Button
+
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/dialog_language_choose"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_16sdp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_language_eng"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/rectangle3"        android:text="@string/dialog_language_english"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_14sdp"/>
+
+    <Button
+        android:id="@+id/btn_language_ar"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/rectangle3"        android:text="@string/dialog_language_arabic"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_14sdp"/>
+
+    <Button
+        android:id="@+id/btn_cancel_lang"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@color/colorDustyGrey"
+        android:clickable="true"
+        android:text="@string/dialog_cancel"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_14sdp"
+        android:visibility="gone"/>
+</LinearLayout>

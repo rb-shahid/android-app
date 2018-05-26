@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.dtechsystem.carefer.UI.Activities.MobileNumVerifyActivity">
+
+    <Button
+        android:id="@+id/btn_re_enter_mobile"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_above="@+id/textView2"
+        android:layout_height="31dp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_re_enter_mobile"
+        android:textAllCaps="false"
+        android:textColor="#42A5F5"
+        android:textSize="@dimen/_14sdp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/confirm_number_bg"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/logo1" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_above="@+id/confirm_mob_nu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/enter_verification_code"
+        android:textColor="@color/mygray"
+        android:textSize="@dimen/_17sdp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/confirm_mob_nu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ly_verify"
+        android:layout_marginStart="38dp"
+        android:text="@string/confirm_mobile_number"
+        android:textAlignment="center"
+        android:textColor="@color/mygray"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:id="@+id/ly_verify"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn_verify_pin"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_1_verify"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/rectangle333"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="@string/code_eg"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusLeft="@+id/et_2_verify"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_2_verify"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/rectangle333"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="@string/code_eg"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusLeft="@+id/et_3_varify"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_3_verify"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/rectangle333"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="@string/code_eg"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:nextFocusLeft="@+id/et_4_varify"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_4_verify"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_3sdp"
+            android:background="@drawable/rectangle333"
+            android:digits="0123456789"
+            android:gravity="center"
+            android:hint="@string/code_eg"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/chronometer_sms"
+        android:layout_width="313dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/mobileNumber"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/mygray"
+        android:textSize="@dimen/_15sdp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/chronometer_smscounter"
+        android:layout_width="227dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_resend_code"
+        android:layout_gravity="center"
+        android:layout_marginEnd="19dp"
+        android:gravity="center"
+        android:textColor="@color/mygray"
+        android:textSize="@dimen/_13sdp"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/btn_verify_pin"
+        android:layout_width="233dp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_resend_code"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle2"
+        android:clickable="true"
+        android:onClick="ben_Next_to_carafePolicy_Click"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/check_now"
+        android:textAllCaps="false"
+        android:textColor="@color/pf_white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/btn_resend_code"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="19dp"
+        android:clickable="true"
+        android:padding="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_resend_code"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/mobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_re_enter_mobile"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_17sdp" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.dtechsystem.carefer.SplashActivity"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bitmap"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_splash_BG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle1"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="101dp"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/logo1"
+        tools:ignore="ContentDescription" />
+
+
+</RelativeLayout>

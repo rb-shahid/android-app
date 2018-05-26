@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9500</color>
+    <!--<color name="colorPrimary">#faa91e</color>-->
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ff9500</color>
+    <color name="mygray">#515151</color>
+    <color name="btn_green">#45c059</color>
+    <color name="btn_red">#f00000</color>
+    <color name="btn_green_pressed">#318a3f</color>
+    <color name="btn_chnge">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="editAddressColor">#27aae1</color>
+    <color name="textFilterColor">#515151</color>
+    <color name="none">#00000000</color>
+
+
+
+</resources>

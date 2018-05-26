@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="@dimen/_12sdp"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:text="@string/dp_brand"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_15sdp" />
+
+</LinearLayout>

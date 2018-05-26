@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/colorGreylight"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.MainActivity"
+    tools:ignore="Overdraw">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_7sdp"
+        android:gravity="start">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:paddingStart="@dimen/_10sdp"
+                >
+
+                <ImageButton
+                    android:id="@+id/toolbar_back"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/ic_toolbar_back"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+
+                    android:visibility="gone"
+                    />
+                <EditText
+                    android:id="@+id/searchfiled"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/searchbg"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableRight="@drawable/ic_search"
+                    android:drawableTint="@color/black"
+                    android:gravity="right|center_vertical"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingRight="@dimen/_30sdp"
+                    android:hint="@string/search"
+                    android:inputType="text"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:textColorHint="@color/textFilterColor"
+                    android:textColor="@color/textFilterColor"
+                    android:visibility="visible" />
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:padding="@dimen/_10sdp"
+                    android:text=""
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                   />
+
+
+
+                <ImageButton
+                    android:id="@+id/toolbar_search"
+                    android:layout_width="@dimen/_22sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:src="@drawable/ic_toolbar_search"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:visibility="gone"
+                />
+                <ImageButton
+                    android:id="@+id/toolbar_refresh"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/refresh"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:visibility="gone"
+                    />
+                <ImageButton
+                    android:id="@+id/toolbar_filter"
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:src="@drawable/ic_toolbar_filter"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:visibility="gone"
+                    />
+
+                <ImageButton
+                    android:id="@+id/toolbar_sort"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@drawable/ic_toolbar_sort"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:visibility="gone"
+                    />
+
+                <ImageButton
+                    android:id="@+id/toolbar_edit"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/ic_toolbar_edit"
+                    android:scaleType="fitXY"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:visibility="gone"
+                    />
+
+                <ImageButton
+                    android:id="@+id/toolbar_fav"
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:background="@color/none"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_favorite_border"
+                    />
+
+
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    </android.support.v7.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff"/>
+    <!--
+
+-->
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:paddingTop="@dimen/_10sdp"
+        app:itemBackground="@drawable/nav_background"
+        app:itemIconTint="@color/tint"
+        app:menu="@menu/bottom_nav_menu"
+
+        />
+
+    <!--
+       <android.support.design.widget.NavigationView
+           android:id="@+id/nav_view"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_gravity="right"
+           android:background="@android:color/white"
+           android:fitsSystemWindows="true"
+           android:layoutDirection="rtl"
+           android:textDirection="rtl"
+           android:visibility="visible"
+           app:headerLayout="@layout/nav_left_menu"
+           app:itemBackground="@drawable/dr_list_item_drawyer_menu_click"
+           app:itemIconTint="@drawable/dr_tv_selection"
+           app:itemTextColor="@drawable/dr_tv_selection"
+           app:menu="@menu/activity_main_drawer"/>
+    -->
+</LinearLayout>

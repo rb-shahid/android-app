@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/gmail"
+        android:title="Scan"
+        android:icon="@drawable/icon_gmail" />
+
+    <item
+        android:id="@+id/hangouts"
+        android:title="Hangouts"
+        android:icon="@drawable/icon_hangouts" />
+    <item
+        android:id="@+id/gplus"
+        android:title="Gmail"
+        android:icon="@drawable/icon_google_plus" />
+
+    <item
+        android:id="@+id/mail"
+        android:title="Mail"
+        android:icon="@drawable/icon_mail" />
+    <item
+        android:id="@+id/message"
+        android:title="Message"
+        android:icon="@drawable/icon_message" />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/icon_more" />
+</menu>

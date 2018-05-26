@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:duplicateParentState="false"
+        app:cardBackgroundColor="@android:color/transparent"
+        card_view:cardElevation="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/dr_list_item_fav_click"
+                android:clickable="true"
+                android:duplicateParentState="true"
+                android:gravity="center"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/lay_top_my_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+
+                    android:clickable="false"
+                    android:duplicateParentState="true"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_3sdp"
+                    android:visibility="visible"
+
+                    card_view:ignore="DisableBaselineAlignment,UselessParent">
+
+                    <LinearLayout
+                        android:id="@+id/lay_iv_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:duplicateParentState="false"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/iv_drop_shop_details"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_weight="0"
+                                android:background="@drawable/ic_arrow_down_grey"
+                                card_view:ignore="ContentDescription,InefficientWeight,NestedWeights"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.99"
+                            android:layout_gravity="center"
+
+                            android:clickable="false"
+                            android:duplicateParentState="false"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tv_order_number_top"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:clickable="false"
+                                android:duplicateParentState="false"
+                                android:gravity="right"
+                                android:padding="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text="@string/tv_order_number"
+                                android:textColor="@color/colorGrey"
+                                android:textSize="@dimen/_12sdp"
+                                card_view:ignore="Deprecated,InefficientWeight,NestedWeights,RtlHardcoded"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_1sdp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_weight="0"
+                            android:background="@color/colorGrey"
+                            android:clickable="false"
+                            android:duplicateParentState="false"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:layout_weight="0"
+                            android:clickable="false"
+
+                            android:duplicateParentState="false"
+
+                            android:gravity="end">
+
+                            <TextView
+                                android:id="@+id/tv_date_order_top"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:clickable="false"
+                                android:duplicateParentState="false"
+                                android:gravity="center"
+                                android:padding="@dimen/_2sdp"
+                                android:singleLine="true"
+                                android:text="@string/tv_date_order"
+                                android:textColor="@color/colorGrey"
+                                android:textSize="@dimen/_12sdp"
+                                card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_4sdp"
+                                android:clickable="false"
+                                android:duplicateParentState="false"
+                                android:gravity="center"
+                                android:padding="@dimen/_2sdp"
+                                android:singleLine="true"
+                                android:text="@string/tv_date"
+                                android:textColor="@color/colorGrey"
+                                android:textSize="@dimen/_12sdp"
+                                card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_bottom_my_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/lay_iv_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dr_btn_orange_angle_180"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    card_view:ignore="UselessParent">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="DisableBaselineAlignment,RtlHardcoded">
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:visibility="gone"
+                                android:layout_weight="0"
+                                android:background="@drawable/ic_arrow_up_white"
+                                card_view:ignore="ContentDescription,InefficientWeight,RtlHardcoded"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:orientation="horizontal"
+                            card_view:ignore="InefficientWeight,RtlHardcoded">
+
+                            <TextView
+                                android:id="@+id/tv_my_order_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:singleLine="true"
+                                android:text="@string/dummy_order_no"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/_12sdp"
+                                card_view:ignore="Deprecated"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginEnd="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text="@string/tv_order_number"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/_12sdp"
+                                card_view:ignore="Deprecated,RtlHardcoded"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/dr_line_hover"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:id="@+id/tv_my_order_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_3sdp"
+                            android:singleLine="true"
+                            android:text="@string/dummy_date"
+                            android:textColor="@android:color/white"
+
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:text="@string/tv_date_order"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/dr_line_hover"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:id="@+id/tv_name1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_3sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/tv_name1_heading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/dr_line_hover"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:id="@+id/tv_name2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_3sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/tv_name2_heading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/dr_line_hover"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:id="@+id/tv_name3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_3sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/tv_name3_heading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@drawable/dr_line_hover"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp"
+                        card_view:ignore="RtlHardcoded">
+
+                        <TextView
+                            android:id="@+id/tv_name4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_3sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                        <TextView
+                            android:id="@+id/tv_name4_heading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/_12sdp"
+                            card_view:ignore="Deprecated,RtlHardcoded"/>
+
+                    </LinearLayout>
+
+
+
+
+                    <Button
+                        android:id="@+id/btn_add_rate_shop"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="left"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/dr_list_item_fav_click_round"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/btn_rate_this_shop"
+                        android:textAllCaps="false"
+                        android:textColor="@drawable/dr_tv_selection_rating"
+                        android:textSize="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

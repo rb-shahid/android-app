@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.RatingActivity"
+    tools:ignore="Overdraw">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        card_view:cardElevation="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv_customer_name_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:padding="@dimen/_2sdp"
+                        android:text="@string/your_name"
+                        android:textColor="@color/colorDarkOrange"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_date_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:padding="@dimen/_2sdp"
+                        android:text="@string/dummy_date"
+                        android:textColor="#7e7c7c"
+                        android:textSize="@dimen/_11sdp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_avg_rate_review"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_gravity="end"
+                    android:layout_weight="0"
+                    android:background="@drawable/dr_btn_green_border"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/_3sdp"
+                    android:text="4.5"
+                    android:textAlignment="center"
+                    android:textColor="#7e7c7c"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <!--
+            <ImageView
+                android:id="@+id/iv_first_letter_of_name"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+                -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@color/colorGrey" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:src="@drawable/ic_price" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/price"
+                    android:textColor="@color/colorDustyGrey"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/rb_price_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/_9sdp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/dr_rating_bar_orange_small"
+                    android:rating="0"
+
+                    android:stepSize="0.1"
+                    tools:ignore="RtlHardcoded" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:src="@drawable/ic_quality" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/quality"
+                    android:textColor="@color/colorDustyGrey"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/rb_quality_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/_9sdp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/dr_rating_bar_orange_small"
+                    android:rating="0"
+
+                    android:stepSize="0.1"
+                    tools:ignore="RtlHardcoded" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:src="@drawable/ic_time" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/time"
+                    android:textColor="@color/colorDustyGrey"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/rb_time_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/_9sdp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/dr_rating_bar_orange_small"
+                    android:rating="0"
+                    android:stepSize="0.1"
+                    tools:ignore="RtlHardcoded" />
+
+            </LinearLayout>
+
+
+            <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <TextView
+                android:id="@+id/tv_coments_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:padding="@dimen/_10sdp"
+                android:scrollbars="vertical"
+                android:text="ورشة ممتازة جدا وعندهم عمالة متنقلة الى جميع الأماكن"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="@dimen/_10sdp" />
+            <!--</ScrollView>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/colorGrey" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+

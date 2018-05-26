@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enter_your_number"
+    tools:context="co.dtechsystem.carefer.UI.Activities.MobileNumActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="85dp"
+        android:layout_height="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/logo1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="217dp"
+        android:text="@string/enter_mobile"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_18sdp" />
+
+    <EditText
+        android:layout_width="159dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="287dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:gravity="center"
+        android:hint="@string/phone_eg"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:visibility="gone"
+        tools:ignore="UnusedAttribute" />
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <com.lamudi.phonefield.PhoneEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/et_mobile_number_amobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:gravity="center"
+            android:hint="@string/phone_eg"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:visibility="gone"
+            tools:ignore="UnusedAttribute" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:visibility="gone"
+            app:ccpLanguage="ARABIC"
+            app:defaultCode="54"
+            app:hideNameCode="true" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="218dp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/rectangle3"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/btn_next"
+        android:textAllCaps="false"
+        android:textColor="@color/pf_white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

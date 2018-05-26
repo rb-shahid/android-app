@@ -1,0 +1,202 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.Activities.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabIndicatorHeight="2dp"
+        android:background="@android:color/white"
+        app:tabTextAppearance="@style/tabs_txt"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/btn_explorer_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_explorer"
+            android:icon="@drawable/ic_explore"
+
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/btn_moved_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_moved_shop"
+            android:icon="@drawable/ic_shop"
+            />
+        <android.support.design.widget.TabItem
+            android:id="@+id/btn_receive_car"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_receive_car"
+            android:icon="@drawable/ic_car"
+
+            />
+    </android.support.design.widget.TabLayout>
+
+
+
+    <Button
+        android:id="@+id/order_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_green_background"
+        android:paddingTop="@dimen/_6sdp"
+        android:paddingBottom="@dimen/_6sdp"
+        android:text="@string/title_book_now"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+<!--
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/tabLayout"
+        android:layout_above="@+id/order_now"
+        />
+-->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabLayout"
+        android:layout_above="@+id/order_now"
+       >
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_search_shops_here_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/dr_btn_round_corner_white_90"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="@string/btn_search_this_area"
+        android:textAllCaps="true"
+        android:textColor="@color/colorGreyDark"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tabLayout"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+
+
+    <ProgressBar
+        android:id="@+id/pg_search_this_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tabLayout"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:visibility="gone"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bt_phone_clicked"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_above="@+id/order_now"
+        app:fabSize="mini"
+        app:backgroundTint="#fff"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_call"
+        />
+
+    <!--
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_location"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_above="@+id/bt_phone_clicked"
+            app:backgroundTint="#fff"
+            android:src="@drawable/ic_my_location"
+            />
+
+    -->
+        <!--
+            <Button
+                android:id="@+id/btn_explorer_main"
+                android:layout_width="@dimen/_88sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/dr_btn_round_corner_orange_90"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/btn_explorer"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_moved_shop"
+                android:layout_width="@dimen/_88sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@id/btn_explorer_main"
+                android:background="@drawable/dr_btn_round_corner_orange_90"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/title_moved_shop"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_receive_car"
+                android:layout_width="@dimen/_88sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_toLeftOf="@id/btn_explorer_main"
+                android:background="@drawable/dr_btn_round_corner_orange_90"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/title_receive_car"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+        -->
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <layer-list>
+
+            <item>
+                <shape>
+
+
+
+                    <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+                </shape>
+            </item>
+
+            <item android:right="5dp">
+
+                <bitmap android:gravity="center_vertical|left" android:src="@drawable/ic_arrow_down_black" />
+
+            </item>
+
+        </layer-list>
+
+    </item>
+
+</selector>

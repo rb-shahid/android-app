@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+
+ext {
+  bintrayRepo = 'maven'
+  bintrayName = 'phone-field'
+
+  publishedGroupId = 'dtech.countryflags'
+  libraryName = 'phone-field'
+  artifact = 'phone-field'
+
+  libraryDescription = 'A small library that allows you to create phone fields with corresponding country flags, and validate the phone number using libphonenumber from google.'
+
+  libraryVersion = '0.1.3'
+
+
+
+  licenseName = 'The Apache Software License, Version 2.0'
+  licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+  allLicenses = ["Apache-2.0"]
+}
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion '26.0.2'
+
+  defaultConfig {
+    minSdkVersion 14
+    targetSdkVersion 25
+    versionCode 1
+    versionName "1.0"
+  }
+  buildTypes {
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+}
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+  compile 'com.android.support:appcompat-v7:25.2.0'
+  compile 'com.googlecode.libphonenumber:libphonenumber:7.3.1'
+  compile 'com.android.support:design:25.2.0'
+}

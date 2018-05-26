@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGrey">#bdbdbd</color>
+    <color name="colorCream">#fdfdfd</color>
+    <color name="colorGreylight">#eee6e5</color>
+    <color name="colorLightBlue">#ecf4f7</color>
+    <color name="colorCreamDark">#f8f8f8</color>
+    <color name="colorHeliotrope">#705406</color>
+    <color name="colorMandy">#ed5c74</color>
+    <color name="colorDustyGrey">#a59c9d</color>
+    <color name="colorGreyDark">#6d6d6d</color>
+    <color name="colorOrange">#ff5702</color>
+    <color name="colorDarkOrange">#d06900</color>
+    <color name="colorChelseaGem">#955a02</color>
+    <color name="colorCinnabar">#FFEC5C34</color>
+    <color name="colorFroly">#F6787C</color>
+    <color name="colorNarvik">#F7FCF8</color>
+</resources>

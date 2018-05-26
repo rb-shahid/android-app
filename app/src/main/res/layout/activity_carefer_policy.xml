@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.dtechsystem.carefer.UI.Activities.CareferPolicyActivity"
+    tools:ignore="Overdraw"
+    >
+
+    <TextView
+        android:id="@+id/tv_title_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_care_policy"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/_15sdp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        android:textSize="@dimen/_17sdp"
+        android:background="@drawable/policybg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginBottom="11dp"
+
+        android:background="@drawable/policyrectangle"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+
+
+        >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/privacy_policyy"
+                android:drawableBottom="@drawable/line"
+                android:drawablePadding="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+            <!--<View-->
+                <!--android:layout_width="@dimen/_240sdp"-->
+                <!--android:layout_height="1sp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:background="@drawable/line"-->
+                <!--android:paddingLeft="@dimen/_50sdp"-->
+                <!--android:paddingRight="@dimen/_50sdp"-->
+                <!--/>-->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_carefer_policy_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@style/TextAppearance.FontPath"
+                    android:gravity="right"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:scrollbars="vertical"
+                    android:text="@string/privacy_policy_details"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="@dimen/_17sdp"
+                    tools:ignore="RtlHardcoded"
+
+                    />
+
+            </ScrollView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/_1sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:background="@drawable/recofterms"
+                android:orientation="horizontal"
+                android:gravity="right"
+                >
+
+            <TextView
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/cb_accept_policy"
+                android:textColor="@color/colorAccent"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                <RadioButton
+                    android:id="@+id/cb_carefer_policy"
+                    style="@style/radioButtonOnActive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:buttonTint="@color/colorAccent"
+                    android:layout_centerVertical="true" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/rectangle2"
+                android:clickable="false"
+                android:onClick="btn_Next_to_mainmenu_Click"
+                android:text="@string/btn_next"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+            />
+        </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

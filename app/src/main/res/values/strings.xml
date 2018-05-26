@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">Carefer</string>
+    <!--Google Maps APi Key-->
+    <!--development-->
+    <!--<string name="google_maps_api_key">AIzaSyBEE1M4g2JVzjU8wJ_BAg0BDALhwX_CGPM</string>-->
+    <!--Live-->
+    <!--<string name="google_maps_api_key">AIzaSyB6s5zK0UW5q6GVLAz96FMJEEPinY_UEUY</string>-->
+
+
+    <!--<string name="google_maps_api_key">AIzaSyBt1RpsN_SuCaP_fNe2RvwMnGquX8WjJn4</string>-->
+<!--AIzaSyBt1RpsN_SuCaP_fNe2RvwMnGquX8WjJn4-->
+    <!--mine -->
+    <string name="google_maps_api_key">AIzaSyD3OWoDWD-LqoE8ZFqwaJBp9MGHSTQT4_I</string>
+
+    <string name="carefer_slogan">Sologn goes here</string>
+    <string name="enter_mobile">Enter Your Mobile Number</string>
+    <string name="privacy_policyy">Terms and Conditions</string>
+    <string name="setting">Settings</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_re_enter_mobile">Re Enter Mobile</string>
+    <string name="btn_next">Next</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="confirm_mobile_number">Confirm Your Mobile Number</string>
+    <string name="check_now">Check Now</string>
+    <string name="btn_resend_code">Resend code</string>
+    <string name="phone_eg">eg:9663345882589</string>
+    <string name="code_eg">-</string>
+    <string name="btn_back">Back</string>
+    <string name="privacy_policy">Carefer Policy</string>
+    <string name="privacy_policy_details">Our Privacy Policy template lets you get
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.
+        Our Privacy Policy template lets you get.
+
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.
+    Our Privacy Policy template lets you get.
+
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.
+    </string>
+    <string name="title_activity_main">Shopping Shops</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="new_num">We will send the verification code to the new number so you can activate it</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_explorer">Explorer</string>
+    <string name="btn_moved_shop">Moved Shop</string>
+    <string name="btn_receive_car">Receive Shop</string>
+    <string name="btn_search_this_area">Search This Area</string>
+    <string name="your_mobile">Your Mobile Number</string>
+    <string name="your_name">Your Name</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_save_changes">Save</string>
+    <string name="share_app_tv">Share App</string>
+    <string name="lorem_ispum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived  </string>
+    <string name="share_via_fb">Share via Facebook</string>
+    <string name="share_via_tw">Share via Twitter</string>
+    <string name="share_via_gtalk">Share via Gtalk</string>
+    <string name="share_via_insta">Share via Instagram</string>
+    <string name="share_via_pin">Share via Pinterest</string>
+    <string name="share_via_whats">Share via WhatsApp</string>
+    <string name="share_via_tele">Share via Telegram</string>
+    <string name="share_via_snap">Share via Snapchat</string>
+    <string name="my_details">Profile</string>
+    <string name="shop_details">Shop Details</string>
+    <string name="shops_list">Shops List</string>
+    <string name="prompt_service">Service Type</string>
+    <string name="prompt_car_brand">Car Brand</string>
+    <string name="riyadh_saduia">Riyadh, Saudi Arabia</string>
+    <string name="dummy_text_list_item">Toyota Riadah Motors, Pvt. Ltd.</string>
+    <string name="dummy_text_list_details">Motor Computerized Wheel Allignment</string>
+    <string name="btn_order">Order Now</string>
+    <string name="title_care_policy">Carefer Policy</string>
+    <string name="title_order_detail">Order Detail</string>
+    <string name="btn_call_shop">Call The Shop</string>
+    <string name="btn_nevegate_shop">Nevegate To The Shop</string>
+    <string name="btn_done">Done !</string>
+    <string name="title_navigate">Navigate</string>
+    <string name="title_shop_rating">Shop Rating</string>
+    <string name="price">Price</string>
+    <string name="quality">Quality</string>
+    <string name="time">Time</string>
+    <string name="btn_add_comment">Add Comment</string>
+    <string name="btn_rate_this_shop">Rate Shop</string>
+    <string name="type_comments">Type Your Comments Here…</string>
+    <string name="order_history">Your Order History</string>
+    <string name="title_order_history">My Orders</string>
+    <string name="tv_order_number">Order Number:</string>
+    <string name="tv_completed_status">Completed</string>
+    <string name="tv_pending_status">Pending</string>
+    <string name="tv_date">Date: </string>
+    <string name="tv_date_order">Date of Order</string>
+    <string name="tv_shop">Shop:</string>
+    <string name="tv_order_type">Order Type:</string>
+    <string name="tv_shop_rating">Shop Rating:</string>
+    <string name="tv_status">Status:</string>
+    <string name="tv_brand_name">Brand Name</string>
+    <string name="tv_model_name">Model Name</string>
+    <string name="tv_service_type">Service Type</string>
+
+    <string name="tv_order_no">Order No</string>
+    <string name="tv_customer_mobile">Customer Mobile:</string>
+    <string name="tv_customer_name">Customer Name:</string>
+    <string name="tv_brand">Brand:</string>
+    <string name="tv_moved_shop">Moved Shop:</string>
+    <string name="tv_receive_comment">Receive Car Comment:</string>
+    <string name="tv_type">Type:</string>
+    <string name="change_num_mobile">Change mobile number</string>
+    <string name="title_about_us">About Carefer</string>
+    <string name="dummy_order_no">0052</string>
+    <string name="dummy_date">05-Feb-2017</string>
+    <string name="dummy_order_type">On Call</string>
+    <string name="dummy_status">In Progress</string>
+    <string name="dummy_rating">4/5</string>
+    <string name="title_fav_shops">Favourite Shops</string>
+    <string name="tv_how_it_works">How It Works!</string>
+    <string name="tv_contact_details">Contact Us</string>
+    <string name="carefer_emial">info@carefer.co</string>
+    <string name="carefer_phone">920008629</string>
+    <string name="carefer_site">www.carefer.co</string>
+    <string name="title_order_now">Order Now</string>
+    <string name="nav_my_details">My Details</string>
+    <string name="nav_my_orders">My Orders</string>
+    <string name="nav_fav_shop">Fav Shops</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="loading">Loading…</string>
+    <string name="some_went_wrong_parsing">Something went wrong parsing!</string>
+    <string name="some_went_wrong">Something went wrong…!</string>
+    <string name="no_record_found">No record found yet!</string>
+    <string name="et_search_shop">Enter shop name…</string>
+    <string name="social_media">Social Media</string>
+    <string name="follow_social_media">Follow us on social media</string>
+    <string name="title_Contact_us">Contact us</string>
+    <string name="phone_hint">Phone Number</string>
+
+    <string name="invalid_phone_number">Please enter a valid phone number</string>
+    <string name="invalid_price">One price value must be selected in moved shop price</string>
+    <string name="cb_accept_policy">Accept Policy</string>
+    <string name="tv_total_results">Total Results</string>
+    <string name="tv_sorting">Sort As</string>
+    <string name="tv_filter">Filter</string>
+    <string name="tv_car_brand">Car Brand</string>
+    <string name="tv_car_model">Car Model</string>
+    <string name="tv_last_changed_oil">Last Changed Oil</string>
+    <string name="tv_title_top_a_map">Map</string>
+    <string name="tv_title_share">Share the App</string>
+    <string name="tv_website_icon">Website: </string>
+    <string name="tv_phone_icon">Phone:</string>
+    <string name="tv_email_icon">Email :</string>
+    <string name="tv_expand_your_choices">Expand your choices by removing a filter or two.</string>
+    <string name="tv_good_choice_see_shops">Good choice! Go see what your perfect shops looks like.</string>
+
+    <string name="dp_service_type">Service Type</string>
+    <string name="dp_brand">Brand</string>
+    <string name="dp_model">Model</string>
+    <string name="toast_select_one_drop">Please Select One From DropDown</string>
+    <string name="toast_no_internet_avail">No Internet Available…!</string>
+    <string name="toast_logged_in">Logged In…!</string>
+    <string name="toast_permission">You did not give permission to access device location…!</string>
+    <string name="toast_record_updated">Record Updated Successfully…!</string>
+    <string name="toast_order_placed">Your Order Placed.</string>
+    <string name="toast_fill_all_fields">Please Fill All Fields.</string>
+    <string name="toast_carefer_policy">Please accept carefer policy first…!</string>
+    <string name="toast_no_shop_contact_found">No shop contact Number found…!</string>
+    <string name="toast_mobile_Verified">Mobile Number Verified.</string>
+    <string name="toast_invalid_code">Incorrect verification code.</string>
+    <string name="toast_will_try">Will try to resend after:</string>
+    <string name="toast_shop_deleted_fav">Shop deleted from your favourite list…</string>
+    <string name="toast_shop_added_fav">Shop Added in your favourite list…</string>
+    <string name="toast_location_not_found">Your current location could not be found.</string>
+    <string name="toast_counter">If you do not receive the code during </string>
+    <string name="toast_select_service_type"> Select Service Type</string>
+    <string name="toast_select_model_type">Select Model Type</string>
+    <string name="toast_select_brand_type">Select Brand Type</string>
+
+    <string name="tv_location">Location</string>
+
+    <string name="toast_record_found_out_of">Rocord Found Out of </string>
+
+    <string name="toast_review_added">Review Added</string>
+    <string name="toast_please_give_rating">Please give at least one rating</string>
+    <string name="toast_please_add_comments">Please Add Comments</string>
+    <string name="toast_review_already_added">Review is already added</string>
+    <string name="toast_please_wait">Please Wait</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_message">We find that you are changing your number .We need to verify it first.All your record remain saved.</string>
+    <string name="dialog_name_sorting">Name</string>
+    <string name="dialog_rating_sorting">Rating</string>
+    <string name="dialog_ascending">Ascending</string>
+    <string name="dialog_descending">Descending</string>
+    <string name="dialog_language_english">English</string>
+    <string name="dialog_language_arabic">Arabic</string>
+    <string name="dialog_language_choose">Choose Language</string>
+
+    <string name="spinner_provided_warranty">Provide Warranty</string>
+    <string name="spinner_provided_replace_parts">Provide Parts Replacement</string>
+    <string name="spinner_place_type">Place Type</string>
+    <string name="spinner_top_rated">Rated</string>
+    <string name="spinner_distance">Distance</string>
+    <string name="order_type_call">On Call</string>
+    <string name="order_type_shop">On Shop</string>
+
+    <string name="btn_apply_filter">Apply Filter</string>
+    <string name="btn_reset_filter">Reset Filter</string>
+    <string name="tv_city">City</string>
+    <string name="tv_reviews">Reviews</string>
+    <string name="tv_name_anonymous">Anonymous</string>
+    <string name="tv_yes">Yes</string>
+    <string name="tv_no">No</string>
+    <string name="tv_specilized_brand">Specilized Brand</string>
+    <string name="tv_nationality">Nationality</string>
+    <string name="tv_about_us">Carefer application is a platform between service providers (workshops) and two service applicants</string>
+    <string name="tv_share_app">Abjad Hose is just a text doll of the printing and compositing industry. It was the standard industry standard doll ever</string>
+
+    <string name="tv_model_rm">Models</string>
+    <string name="tv_brand_rm">Brands</string>
+    <string name="tv_service_type_rm">Service Type</string>
+    <string name="tv_comment_rm">Comment</string>
+    <string name="tv_price_rm">Prices</string>
+    <string name="tv_service_with_out_price">Service with out price</string>
+
+
+    <string name="ph_model">Select Model</string>
+    <string name="ph_brand">Select Brand</string>
+    <string name="ph_service_type">Select Service Type</string>
+    <string name="ph_comment">Problem Description</string>
+    <string name="toast_verfication_sent_mobile">Verification code sent to number.</string>
+
+    <string name="tv_version_name">Version</string>
+    <string name="tv_km_after_oil_change">Km after the oil was changed</string>
+    <string name="tv_see_all">See All</string>
+    <string name="tv_excelent">Excelent</string>
+    <string name="tv_good">Good</string>
+    <string name="tv_average">Average</string>
+    <string name="tv_lower">Lower</string>
+    <string name="tv_not_enough_reviews">This Shop Does not have enough reviews</string>
+    <string name="tv_read_full_des">Read Full Description</string>
+    <string name="tv_read_less_des">Read Less Description</string>
+    <string name="tv_price_detail">Please select any combination of brand, model and service type</string>
+    <string name="dialog_need_your_permission">Need Your location permissions for this action</string>
+    <dimen name="btn_width">@dimen/_100sdp</dimen>
+
+    <string name="title_moved_shop">moved shop</string>
+
+    <string name="title_receive_car">Receive Car</string>
+    <string name="tv_moved_shop_description">bljgjhgjf ghghjd fjgfghfkghfkg fkhgfkhgf kghfkghfkhgf khgfhjgf</string>
+    <string name="tv_receive_car_description">bljgjhgjf ghghjd fjgfghfkghfkg fkhgfkhgf kghfkghfkhgf khgfhjgf</string>
+    <string name="tv_price">price</string>
+    <string name="search">search</string>
+    <string name="discount_percentage">discount percentage:</string>
+    <string name="ask_to_Call">Call Operator</string>
+    <string name="call_operator_message">Would you like to make call to us for some assistance?</string>
+    <string name="call">call</string>
+    <string name="moved_shop_price">price</string>
+    <string name="write_comments">describe what is the problem</string>
+    <string name="select_location">select location</string>
+    <string name="select_car_brand">selcet car brand</string>
+    <string name="edit_address" />
+    <string name="service_not_available">serivce not available</string>
+    <string name="invalid_lat_long_used">invalid lat lng</string>
+    <string name="no_address_found">no address found for these coordinates</string>
+    <string name="address_found">address found</string>
+    <string name="select_car_model">select the model</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descriptionReciveCar">من خلال هذه الخدمة نستقبل سياراتكم ونعمل على ايجاد المشكلة وسنقوم بحلها</string>
+
+    <string name="title_book_now">Book Now</string>
+    <string name="try_again">Try Again</string>
+    <string name="locationenable">Enable Location</string>
+    <string name="locationDisable">Cheak the activiation of the location</string>
+    <string name="thanks_you_msg">Thanks You</string>
+    <string name="success_order">Request successfully completed</string>
+    <string name="servicesSearch">Search for Service</string>
+    <string name="description">xxxx</string>
+
+
+
+
+
+
+
+</resources>

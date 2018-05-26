@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="co.dtechsystem.carefer.UI.Activities.ShopDescriptionActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_7sdp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/lay_dr_btn"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/ic_arrow_back_white_48pt_3x"
+                    android:backgroundTint="#000"
+                    android:clickable="true"
+                    android:onClick="CloseActivity"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/tv_shop_name_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_40sdp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_shop_description_des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/lorem_ispum"
+            android:textColor="@android:color/black"
+            android:padding="@dimen/_10sdp"
+            android:gravity="right"/>
+    </ScrollView>
+</LinearLayout>

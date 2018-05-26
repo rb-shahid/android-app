@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.MyDetailsActivity"
+    tools:ignore="Overdraw">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_moved_shop_receive_car_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/descriptionReciveCar" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_car_brand_my_details"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="@dimen/_4sdp"-->
+            <!--android:text="@string/tv_brand_rm"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="@dimen/_12sdp" />-->
+
+
+            <TextView
+                android:id="@+id/et_car_brand_my_details"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/moveshobrecbg"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icarrowdropdown"
+                android:gravity="right|center_vertical"
+                android:hint="@string/dp_brand"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp"
+                tools:ignore="RtlHardcoded" />
+
+
+            <co.dtechsystem.carefer.Widget.SearchableSpinner
+                android:id="@+id/search_spinner_brands"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:padding="@dimen/_4sdp"
+
+                />
+            <!--  <Spinner
+                  android:id="@+id/sp_brand_type_shop_details_order"
+                  android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:gravity="center"
+                  android:visibility="visible"/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_car_model_my_details"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="@dimen/_4sdp"-->
+            <!--android:text="@string/tv_model_rm"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="@dimen/_12sdp" />-->
+
+            <TextView
+                android:id="@+id/et_car_model_my_details"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/moveshobrecbg"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icarrowdropdown"
+                android:gravity="right|center_vertical"
+                android:hint="@string/dp_model"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp"
+                tools:ignore="RtlHardcoded" />
+
+
+            <co.dtechsystem.carefer.Widget.SearchableSpinner
+                android:id="@+id/search_spinner_models"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_4sdp" />
+
+
+            <TextView
+                android:id="@+id/tv_problem_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/tv_comment_rm"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <EditText
+                android:id="@+id/et_problem_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/moveshobrecbg"
+                android:gravity="right"
+                android:hint="@string/ph_comment"
+                android:inputType="textCapSentences|textMultiLine"
+                android:lines="3"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"                    android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/lv_edit_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/tv_edit_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:text="@string/edit_address"
+                    android:textColor="@color/editAddressColor"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:text="@string/select_location"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_edit_location"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:drawablePadding="@dimen/_3sdp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingRight="@dimen/_10sdp"-->
+                <!--android:text=""-->
+                <!--android:textColor="@android:color/darker_gray"-->
+                <!--android:textSize="@dimen/_10sdp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_location"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:padding="@dimen/_4sdp"-->
+                <!--android:text="@string/select_location"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="@dimen/_12sdp" />-->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:lines="2"
+                android:padding="@dimen/_4sdp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_11sdp"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_centerInParent="true"
+                android:paddingRight="@dimen/_30sdp"
+                android:paddingLeft="@dimen/_30sdp"
+                android:background="@drawable/rectangle3"
+                android:clickable="true"
+                android:onClick="submitUserData"
+                android:padding="@dimen/_4sdp"
+                android:text="@string/btn_order"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_17sdp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lay_main_top"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+
+            <!---->
+
+            <!---->
+
+        <!--</LinearLayout>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_below="@+id/lay_main_top"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--&gt;-->
+
+
+            <!---->
+
+        <!--</RelativeLayout>-->
+
+    </ScrollView>
+
+
+</RelativeLayout>

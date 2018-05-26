@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_map_info_window"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:layoutDirection="rtl">
+
+
+    <com.joooonho.SelectableRoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_shop_map_item"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/ic_img_place_holder"
+        android:scaleType="centerCrop"
+        app:sriv_left_top_corner_radius="@dimen/_5sdp"
+        app:sriv_right_top_corner_radius="@dimen/_5sdp"
+        app:sriv_left_bottom_corner_radius="@dimen/_5sdp"
+        app:sriv_right_bottom_corner_radius="@dimen/_5sdp"
+        app:sriv_border_width="0dip"
+        app:sriv_border_color="@android:color/transparent"
+        app:sriv_oval="false"
+        android:layout_marginLeft="@dimen/_10sdp"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_shop_name_shop_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:maxLines="1"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/dummy_text_list_item"
+        android:textColor="@color/colorGreyDark"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="normal"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_service_type_shop_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/prompt_service"
+        android:textColor="@color/colorGrey"
+        android:textSize="@dimen/_9sdp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/rb_shop_shop_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:background="@drawable/btn_rating_rounded_green"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@android:color/white"
+        android:paddingRight="@dimen/_3sdp"
+        android:paddingLeft="@dimen/_3sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:textSize="@dimen/_14sdp"
+        />
+    <ImageView
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_weight="0"
+        android:background="@drawable/ic_back_map"
+        tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+
+
+</LinearLayout>

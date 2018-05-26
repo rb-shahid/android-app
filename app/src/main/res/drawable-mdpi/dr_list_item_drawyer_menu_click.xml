@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/dr_drawyer_item_bg" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/dr_orange_angle_90_no_corner" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/dr_orange_angle_90_no_corner" />
+    <item android:drawable="@drawable/dr_drawyer_item_bg" />
+</selector>

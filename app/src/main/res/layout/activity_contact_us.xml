@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+   <!-- <Button
+        android:id="@+id/back"
+        android:layout_width="25dp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/back11"
+        android:backgroundTint="@color/pf_white"
+        android:clickable="false" />!-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/title"
+        android:background="@drawable/group11"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:text="@string/tv_email_icon"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:gravity="right"
+            android:paddingRight="@dimen/_15sdp"
+            android:text="@string/carefer_emial"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/email"
+        android:background="@drawable/group11"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:text="@string/tv_phone_icon"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:gravity="right"
+            android:paddingRight="@dimen/_15sdp"
+            android:text="@string/carefer_phone"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phone"
+        android:background="@drawable/group11"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:text="@string/tv_website_icon"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:gravity="right"
+            android:paddingRight="@dimen/_15sdp"
+            android:text="@string/carefer_site"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+   <!-- <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/header11"
+        android:gravity="center|end"
+        android:maxLines="1"
+        android:paddingRight="@dimen/_50sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:text="@string/title_Contact_us"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_25sdp" />!-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/social_media"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="#FF8A65"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/follow_social_media"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/_30sdp"
+            android:gravity="right"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="111dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <Button
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    />
+                <Button
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instagram"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    />
+
+                <Button
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    />
+
+                <Button
+                    style="@android:style/Widget.Holo.Button.Borderless"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Snapchat"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="111dp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/btn_share_fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@drawable/ic_fb_share"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/btn_share_insta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/ic_insta_share"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/btn_share_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/ic_twitter_share"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/btn_share_snapchat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/ic_snapchat_share"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

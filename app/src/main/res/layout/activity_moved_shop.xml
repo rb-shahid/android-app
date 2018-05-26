@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.MyDetailsActivity"
+    tools:ignore="Overdraw">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <!-- :nextFocusUp and :nextFocusLeft have been set to the id of this component
+        to prevent the dummy from receiving focus again -->
+        <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/autotext"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:nextFocusLeft="@id/autotext"-->
+            <!--android:nextFocusUp="@id/autotext" />-->
+        <!--
+        Dummy code ends here
+        -->
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:id="@+id/cv_main_top"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:cardElevation="@dimen/_7sdp">-->
+        <!--</android.support.v7.widget.CardView>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:orientation="horizontal">-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_toRightOf="@+id/lay_dr_btn"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--tools:ignore="RtlHardcoded">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="right"-->
+                        <!--android:clickable="true"-->
+                        <!--android:drawablePadding="@dimen/_5sdp"-->
+                        <!--android:drawableRight="@drawable/ic_map"-->
+                        <!--android:gravity="center"-->
+                        <!--android:onClick="GotoHome"-->
+                        <!--android:padding="@dimen/_10sdp"-->
+                        <!--android:text="@string/tv_title_top_a_map"-->
+                        <!--android:textColor="@color/colorGrey"-->
+                        <!--android:textSize="@dimen/_15sdp"-->
+                        <!--android:textStyle="bold"-->
+                        <!--tools:ignore="RtlHardcoded" />-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_title_my_details"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center"-->
+                        <!--android:padding="@dimen/_10sdp"-->
+                        <!--android:text="@string/title_moved_shop"-->
+                        <!--android:textColor="@color/colorGrey"-->
+                        <!--android:textSize="@dimen/_15sdp"-->
+                        <!--android:textStyle="bold" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/lay_dr_btn"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="0"-->
+                    <!--android:duplicateParentState="false"-->
+                    <!--android:onClick="btn_drawyerMenuOpen"-->
+                    <!--tools:ignore="RtlHardcoded">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/_20sdp"-->
+                        <!--android:layout_height="@dimen/_20sdp"-->
+                        <!--android:layout_margin="@dimen/_10sdp"-->
+                        <!--android:background="@drawable/ic_menu"-->
+                        <!--android:backgroundTint="@color/colorGrey"-->
+                        <!--android:clickable="false"-->
+                        <!--tools:ignore="ContentDescription,UnusedAttribute" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_title_my_details"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/_80sdp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/headerbg"-->
+                <!--android:gravity="center|end"-->
+                <!--android:paddingBottom="@dimen/_8sdp"-->
+                <!--android:paddingRight="@dimen/_70sdp"-->
+                <!--android:paddingTop="@dimen/_1sdp"-->
+                <!--android:text="@string/title_moved_shop"-->
+                <!--android:textColor="@color/pf_white"-->
+                <!--android:textSize="@dimen/_22sdp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="@dimen/_80sdp"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/icon_arrow_back"-->
+                <!--android:scaleX=".45"-->
+                <!--android:scaleY="0.45"-->
+                <!--/>-->
+
+
+        <LinearLayout
+            android:id="@+id/lay_main_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="NotSibling">
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:background="@drawable/dr_orange_angle_90_no_corner"-->
+                <!--android:gravity="center"-->
+                <!--android:padding="@dimen/_10sdp"-->
+                <!--android:text="@string/title_moved_shop"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:textSize="@dimen/_12sdp" />-->
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_moved_shop_receive_car_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:padding="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:text="@string/description"
+                        android:layout_marginBottom="@dimen/_15sdp"/>
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_car_brand_my_details"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="@dimen/_4sdp"-->
+                        <!--android:text="@string/tv_brand_rm"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="@dimen/_12sdp" />-->
+
+
+                    <TextView
+                        android:id="@+id/et_car_brand_my_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/moveshobrecbg"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/icarrowdropdown"
+                        android:gravity="right|center_vertical"
+                        android:hint="@string/dp_brand"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp"
+                        tools:ignore="RtlHardcoded" />
+
+
+                    <co.dtechsystem.carefer.Widget.SearchableSpinner
+                        android:id="@+id/search_spinner_brands"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/_4sdp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        />
+                    <!--  <Spinner
+                          android:id="@+id/sp_brand_type_shop_details_order"
+                          android:layout_width="match_parent"
+                          android:layout_height="1px"
+                          android:gravity="center"
+                          android:visibility="visible"/>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_car_model_my_details"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="@dimen/_4sdp"-->
+                        <!--android:text="@string/tv_model_rm"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="@dimen/_12sdp" />-->
+
+                    <TextView
+                        android:id="@+id/et_car_model_my_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/moveshobrecbg"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/icarrowdropdown"
+                        android:gravity="right|center_vertical"
+                        android:hint="@string/dp_model"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxEms="4"
+                        android:maxLines="1"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp"
+                        tools:ignore="RtlHardcoded" />
+
+
+                    <co.dtechsystem.carefer.Widget.SearchableSpinner
+                        android:id="@+id/search_spinner_models"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+
+                        />
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_service_type"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:padding="@dimen/_4sdp"-->
+                        <!--android:text="@string/tv_service_type_rm"-->
+                        <!--android:textColor="@android:color/black"-->
+                        <!--android:textSize="@dimen/_12sdp" />-->
+
+
+                    <TextView
+                        android:id="@+id/tv_service_type_selector"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/moveshobrecbg"
+                        android:clickable="true"
+                        android:drawableLeft="@drawable/icarrowdropdown"
+                        android:gravity="right|center_vertical"
+                        android:hint="@string/dp_service_type"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxEms="4"
+                        android:maxLines="1"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp"
+                        tools:ignore="RtlHardcoded" />
+
+
+                    <co.dtechsystem.carefer.Widget.SearchableSpinner
+                        android:id="@+id/search_spinner_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                    />
+
+                    <TextView
+                        android:id="@+id/tv_price_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/_4sdp"
+                        android:text="@string/tv_price_detail"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="@dimen/_13sdp"
+                        android:text="@string/tv_price_rm"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold"
+                    />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:layout_marginTop="2dp"
+                            android:id="@+id/moved_shoped_price_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbars="vertical"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/lv_edit_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <TextView
+                            android:id="@+id/tv_edit_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:text="@string/edit_address"
+                            android:textColor="@color/editAddressColor"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <TextView
+                            android:id="@+id/tv_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="right"
+                            android:padding="@dimen/_4sdp"
+                            android:text="@string/select_location"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/_15sdp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|right"
+                        android:lines="2"
+                        android:padding="@dimen/_4sdp"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_11sdp"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_marginLeft="@dimen/_80sdp"
+                        android:layout_marginRight="@dimen/_80sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:background="@drawable/rectangle3"
+                        android:clickable="true"
+                        android:onClick="submitUserData"
+                        android:padding="@dimen/_4sdp"
+                        android:text="@string/btn_order"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_17sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

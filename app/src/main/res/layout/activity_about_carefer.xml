@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@android:color/white"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.AboutCareferActivity"
+    tools:ignore="Overdraw">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/textView"
+                    android:layout_width="@dimen/_79sdp"
+                    android:layout_height="@dimen/_135sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/bitmap14"
+                    android:gravity="center" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:gravity="right"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/tv_about_us"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:text="@string/tv_how_it_works"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    android:textColor="@color/btn_chnge"
+                    android:text="ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdadasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdadas"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:lines="20"/>
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+</ScrollView>
+
+
+
+</RelativeLayout>

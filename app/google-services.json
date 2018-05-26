@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "742920642411",
+    "firebase_url": "https://carefer-c9f32.firebaseio.com",
+    "project_id": "carefer-c9f32",
+    "storage_bucket": "carefer-c9f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742920642411:android:a5bbc838bac24d8b",
+        "android_client_info": {
+          "package_name": "co.carefer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742920642411-c5iql9374taoqt1irrp2mk5n711sqt2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEu59NZtopqQBeOKYLIXJBe5qWPRO2kc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

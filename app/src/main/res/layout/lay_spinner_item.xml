@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom spinner item layout -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:layout_gravity="center"
+    android:gravity="right"
+    android:textSize="@dimen/_15sdp"
+    android:drawablePadding="@dimen/_5sdp"
+    tools:ignore="Deprecated,RtlHardcoded" />

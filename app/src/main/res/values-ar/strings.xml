@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">Carefer</string>
+    <!--Google Maps APi Key-->
+    <!--development-->
+    <!--<string name="google_maps_api_key">AIzaSyBEE1M4g2JVzjU8wJ_BAg0BDALhwX_CGPM</string>-->
+    <!--Live-->
+    <!--<string name="google_maps_api_key">AIzaSyB6s5zK0UW5q6GVLAz96FMJEEPinY_UEUY</string>-->
+
+    <!--<string name="google_maps_api_key">AIzaSyBt1RpsN_SuCaP_fNe2RvwMnGquX8WjJn4</string>-->
+    <!--mine -->
+    <string name="google_maps_api_key">AIzaSyD3OWoDWD-LqoE8ZFqwaJBp9MGHSTQT4_I</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="carefer_slogan">شعار يذهب هنا</string>
+    <string name="enter_mobile">أدخل رقم جوالك</string>
+    <string name="btn_re_enter_mobile">تغيير الرقم</string>
+    <string name="privacy_policyy">الشروط والأحكام</string>
+    <string name="btn_next">التالي</string>
+    <string name="check_now">التالي</string>
+    <string name="btn_resend_code">أعد المحاولة</string>
+    <string name="enter_verification_code">أدخل رمز التحقق</string>
+    <string name="confirm_mobile_number">تم إرسال رقم التحقق إلى رقم جوالك للتحقق منه</string>
+    <string name="phone_eg">9665×××××</string>
+    <string name="code_eg"></string>
+    <string name="btn_back">الخلف</string>
+    <string name="privacy_policy">سياسة كاريفر</string>
+    <string name="privacy_policy_details">Our Privacy Policy template lets you get
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.
+        Our Privacy Policy template lets you get.
+
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.
+    Our Privacy Policy template lets you get.
+
+        started with a Privacy Policy agreement. This template is free to download and use.
+        A Privacy Policy agreement is the agreement where you specify if you collect personal
+        data, what kind of personal data you collect from users and what you do with that data.</string>
+    <string name="title_activity_main">الخريطة</string>
+    <string name="setting">الإعدادات</string>
+    <string name="navigation_drawer_open">فتح القائمة الجانبية</string>
+    <string name="navigation_drawer_close">إغلاق القائمة الجانبية</string>
+    <string name="btn_change">تغير</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="btn_explorer">إستعراض الورش</string>
+    <string name="btn_moved_shop">الورشة المتنقلة</string>
+    <string name="btn_receive_car">استلام السيارة</string>
+    <string name="btn_search_this_area">بحث في هذه المنطقة</string>
+    <string name="your_mobile">رقم جوالك</string>
+    <string name="your_name">الاسم</string>
+    <string name="btn_save">حفظ</string>
+    <string name="btn_save_changes">حفظ</string>
+    <string name="share_app_tv">شارك التطبيق </string>
+    <string name="lorem_ispum">أبجد هوز هو مجرد دمية النص من صناعة الطباعة والتنضيد. كان معيار الصناعة القياسية دمية من أي وقت مضى منذ 1500s، عندما استغرقت طابعة غير معروفة أبجد هوز هو مجرد دمية النص من صناعة الطباعة والتنضيد. كان معيار الصناعة القياسية دمية من أي وقت مضى منذ 1500s، عندما استغرقت طابعة غير معروفة مطبخ من نوع وسارعت لجعل كتاب عينة نوع. وقد نجاأبجد هوز هو مجرد دمية النص من صناعة الطباعة والتنضيد. كان معيار الصناعة القياسية دمية من أي وقت مضى منذ 1500s، عندما استغرقت طابعة غير معروفة مطبخ من نوع وسارعينة نوع. وقد نجا </string>
+    <string name="share_via_fb">شارك على الفيسبوك</string>
+    <string name="share_via_tw">شارك على تويتر</string>
+    <string name="share_via_gtalk">شارك على قوقل بلس</string>
+    <string name="share_via_insta">شارك على انستغرام</string>
+    <string name="share_via_pin">شارك على بنترست</string>
+    <string name="share_via_whats">شارك على واتس أب</string>
+    <string name="share_via_tele">شارك على تلغرام</string>
+    <string name="share_via_snap">شارك على سناب شات</string>
+    <string name="my_details">الملف الشخصي</string>
+    <string name="shop_details">تفاصيل الورشة</string>
+    <string name="shops_list">قائمة الورش</string>
+    <string name="prompt_service">نوع الخدمة</string>
+    <string name="prompt_car_brand">ماركة السيارة</string>
+    <string name="riyadh_saduia">الرياض</string>
+    <string name="dummy_text_list_item">ورشة مكنيك للسيارات </string>
+    <string name="dummy_text_list_details">موتور المحوسبة عجلة المحاذاة</string>
+    <string name="btn_order">طلب</string>
+    <string name="title_care_policy">سياسة كاريفر</string>
+    <string name="btn_call_shop">اتصل بالورشة</string>
+    <string name="btn_nevegate_shop">الملاحة إلى مكان الورشة</string>
+    <string name="btn_done">قائمة الورش</string>
+    <string name="title_navigate">ملاحة</string>
+    <string name="title_shop_rating">تقييم الورشة</string>
+    <string name="title_order_detail">تفاصيل الطلب</string>
+    <string name="price">السعر</string>
+    <string name="quality">الجودة</string>
+    <string name="time">الوقت</string>
+    <string name="btn_add_comment">أضف تعليق</string>
+    <string name="btn_rate_this_shop">قيم الورشة</string>
+    <string name="new_num">سنقوم بإرسال رمز التحقق إلى الرقم الجديد حتى تتمكن من تفعيله</string>
+    <string name="change_num_mobile">تغير رقم الجوال</string>
+    <string name="type_comments">اكتب تعليقاتك هنا …</string>
+    <string name="order_history">سجل طلباتي</string>
+    <string name="title_order_history">سجل طلباتي</string>
+    <string name="tv_order_number">رقم الطلب #</string>
+    <string name="tv_date">التاريخ: </string>
+    <string name="tv_completed_status">مكتمل</string>
+    <string name="tv_pending_status">تحت المعالجة</string>
+    <string name="tv_date_order">تاريخ الطلب </string>
+    <string name="tv_shop">الورشة: </string>
+    <string name="tv_order_type">نوع الطلب: </string>
+    <string name="tv_shop_rating">تقييم الورشة: </string>
+    <string name="tv_status">الحالة: </string>
+    <string name="tv_brand_name">اسم الماركة:</string>
+    <string name="tv_model_name">اسم نوع السيارة:</string>
+    <string name="tv_service_type">نوع الخدمة:</string>
+    <string name="social_media">وسائل التواصل الإجتماعي</string>
+    <string name="follow_social_media">تابعنا على وسائل التواصل الإجتماعي</string>
+    <string name="tv_order_no">رقم الطلب</string>
+    <string name="tv_customer_mobile">قم جوال العميل:</string>
+    <string name="tv_customer_name">اسم العميل:</string>
+    <string name="tv_brand">ماركة السيارة:</string>
+    <string name="tv_moved_shop">سعر الورشة المتنقلة:</string>
+    <string name="tv_receive_comment">ملاحظات إستلام السيارة:</string>
+    <string name="tv_type">نوع الطلب:</string>
+    <string name="tv_service_with_out_price">عفواً.. لم يتم تحديد السعر لهذه الخدمة،، اطلب ونخدمك بعيوننا </string>
+    <string name="title_about_us">عن كاريفر</string>
+    <string name="dummy_order_no">٠٠٥٢</string>
+    <string name="dummy_date">05-فبراير-2017</string>
+    <string name="dummy_order_type">على المكالمة</string>
+    <string name="dummy_status">في تَقَدم</string>
+    <string name="dummy_rating">٤/٥</string>
+    <string name="title_fav_shops">الورش المفضلة</string>
+    <string name="title_Contact_us">تواصل معنا</string>
+    <string name="tv_how_it_works">كيف نعمل؟</string>
+    <string name="tv_contact_details">تواصل معنا</string>
+    <string name="carefer_emial">info@carefer.co</string>
+    <string name="carefer_phone">920008629</string>
+    <string name="carefer_site"> www.carefer.co</string>
+    <string name="title_order_now">اطلب الآن</string>
+
+    <string name="nav_my_details">بياناتي</string>
+    <string name="nav_my_orders">طلباتي</string>
+    <string name="nav_fav_shop">الورش المفضلة</string>
+    <string name="nav_share">شارك التطبيق</string>
+    <string name="nav_about_us">عن كاريفر</string>
+
+    <string name="loading">جار التحميل…</string>
+    <string name="some_went_wrong_parsing">حدث خطأ في التحليل!</string>
+    <string name="some_went_wrong">هناك خطأ ما…!</string>
+    <string name="no_record_found">لم يتم العثور على أي نتائج حتى الآن!</string>
+    <string name="et_search_shop">بحث باسم الورشة</string>
+
+    <string name="phone_hint">رقم الجوال</string>
+    <string name="invalid_phone_number">يرجى إدخال رقم جوال صحيح</string>
+    <string name="invalid_price">الرجاء تحديد السعر</string>
+    <string name="cb_accept_policy">قبول السياسة</string>
+
+    <string name="tv_total_results"> عدد الورش</string>
+    <string name="tv_sorting">ترتيب حسب</string>
+    <string name="tv_filter">تصفية</string>
+    <string name="tv_car_brand">ماركة السيارة</string>
+    <string name="tv_car_model">طراز السيارة</string>
+    <string name="tv_price">السعر</string>
+    <string name="tv_last_changed_oil">تاريخ آخر تغير الزيت</string>
+    <string name="tv_title_top_a_map">الخريطة</string>
+    <string name="tv_title_share">شارك التطبيق</string>
+    <string name="tv_website_icon">الموقع :</string>
+    <string name="tv_phone_icon">الهاتف :</string>
+    <string name="tv_email_icon">البريد الإلكتروني :</string>
+    <string name="tv_expand_your_choices">يمكن زيادة النتائج بإزالة فلتر أو فلترين</string>
+    <string name="tv_good_choice_see_shops"></string>
+
+    <string name="dp_service_type">نوع الخدمة</string>
+    <string name="dp_brand">ماركة السيارة</string>
+    <string name="dp_model">موديل السيارة</string>
+    <string name="toast_counter">إذا لم يصلك الرمز خلال </string>
+    <string name="toast_select_one_drop">الرجاء الاختيار من القائمة المنسدلة</string>
+    <string name="toast_no_internet_avail">لا يتوفر انترنت …!</string>
+    <string name="toast_logged_in">تم تسجيل الدخول</string>
+    <string name="toast_permission">لايوجد صلاحية للوصول إلى الموقع …!</string>
+    <string name="toast_record_updated">تم التحديث بنجاح</string>
+    <string name="toast_order_placed">تم إنشاء طلبك </string>
+    <string name="toast_fill_all_fields">نرجو ملئ كل الحقول</string>
+    <string name="toast_carefer_policy">يرجى قبول سياسة كارفر أولا …!</string>
+    <string name="toast_no_shop_contact_found">لا يوجد رقم اتصال بالورشة …!</string>
+    <string name="toast_mobile_Verified">تم التحقق من رقم الجوال</string>
+    <string name="toast_invalid_code">رمز التحقق غير صحيح …!</string>
+    <string name="toast_will_try">سيحاول إعادة إرسال بعد:</string>
+    <string name="toast_shop_deleted_fav">تم حذف الورشة من قائمتك المفضلة</string>
+    <string name="toast_shop_added_fav">تم إضافة الورشة في قائمتك المفضلة</string>
+    <string name="toast_location_not_found">لم يتم العثور على موقعك الحالي…!</string>
+    <string name="tv_location">موقعك:</string>
+    <string name="toast_record_found_out_of"> ورشة من أصل </string>
+
+    <string name="toast_review_added">تمت إضافة التعليق</string>
+    <string name="toast_please_give_rating">يرجى إعطاء تقييم واحد على الأقل</string>
+    <string name="toast_please_add_comments">الرجاء إضافة تعليقات</string>
+    <string name="toast_review_already_added">تمت إضافة التعليق من قبل</string>
+    <string name="toast_please_wait">أرجو الإنتظار</string>
+
+    <string name="toast_select_service_type">حدد نوع الخدمة</string>
+    <string name="toast_select_model_type">حدد نوع السيارة</string>
+    <string name="toast_select_brand_type">حدد ماركة السيارة</string>
+
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="dialog_message">وجدنا أنه تغير رقمك، نحن بحاجة إلى التحقق منه أولا، كل البيانات محفوظة</string>
+    <string name="dialog_name_sorting">الاسم</string>
+    <string name="dialog_rating_sorting">التقييم</string>
+    <string name="dialog_ascending">تصاعدي</string>
+    <string name="dialog_descending"> تنازلي</string>
+    <string name="dialog_language_english">الإنجليزية</string>
+    <string name="dialog_language_arabic">العربية</string>
+    <string name="dialog_language_choose">اختر اللغة</string>
+
+
+    <string name="spinner_provided_warranty">توفير الضمان</string>
+    <string name="spinner_provided_replace_parts">توفير قطع الغيار</string>
+    <string name="spinner_place_type">نوع المكان</string>
+    <string name="spinner_top_rated">تقييم</string>
+    <string name="spinner_distance">المسافة</string>
+    <string name="order_type_call">مكالمة</string>
+    <string name="order_type_shop">ملاحة</string>
+
+    <string name="btn_apply_filter">تطبيق التصفية</string>
+    <string name="btn_reset_filter">إعادة تعيين</string>
+    <string name="tv_city">المدينة</string>
+    <string name="tv_reviews">التعليقات</string>
+    <string name="tv_name_anonymous">مجهول الإسم</string>
+    <string name="tv_yes">نعم</string>
+    <string name="tv_no"> لا</string>
+    <string name="tv_specilized_brand">تخصص ماركة السيارات</string>
+    <string name="tv_nationality">الجنسية</string>
+    <string name="tv_about_us">تطبيق كاريفر هو منصة بين مزودين الخدمة (الورش) وبين طالبين الخدمة</string>
+    <string name="tv_share_app">أكيد أصحابك مهتمين بسياراتهم مثلك، وكاريفر راح يتشرف بخدمتكم ومشاركتكم التطبيق</string>
+    <string name="tv_version_name">الإصدار </string>
+    <string name="tv_km_after_oil_change">عدد الكيلومترات عند آخر تغيير للزيت</string>
+    <string name="tv_see_all">إظهار كل</string>
+    <string name="tv_excelent">ممتاز</string>
+    <string name="tv_good">جيد</string>
+    <string name="tv_average">مقبول</string>
+    <string name="tv_lower">سيئ</string>
+    <string name="tv_not_enough_reviews">هذه الورشة لايوجد لديها تعليقات</string>
+    <string name="tv_read_full_des">قراءة المزيد</string>
+    <string name="tv_read_less_des">قراءة أقل الوصف</string>
+    <string name="toast_verfication_sent_mobile">تم إرسال رمز التحقق إلى الرقم</string>
+
+    <string name="dialog_need_your_permission">يلزم صلاحية الموقع لتحديد المكان</string>
+
+    <string name="title_receive_car">استلام السيارة</string>
+    <string name="title_moved_shop">الورشة المتنقلة</string>
+
+    <string name="tv_model_rm">نوع السيارة</string>
+    <string name="tv_brand_rm">ماركة السيارة</string>
+    <string name="tv_service_type_rm">نوع الخدمة</string>
+    <string name="tv_comment_rm">وصف المشكلة</string>
+    <string name="tv_price_rm">الأسعار</string>
+
+
+    <string name="ph_model">اختر موديل السيارة</string>
+    <string name="ph_brand">نوع السيارة</string>
+    <string name="ph_service_type">اختر نوع الخدمة</string>
+    <string name="ph_comment">وصف المشكلة</string>
+
+    <string name="tv_price_detail">الرجاء اختيار ماركة السيارة وموديلها ونوع الخدمة للحصول على السعر</string>
+    <string name="tv_moved_shop_description">أكيد أصحابك مهتمين بسياراتهم مثلك، وكاريفر راح يتشرف بخدمتكم ومشاركتكم التطبيق</string>
+    <string name="tv_receive_car_description">أكيد أصحابك مهتمين بسياراتهم مثلك، وكاريفر راح يتشرف بخدمتكم ومشاركتكم التطبيق</string>
+    <string name="search">بحث</string>
+    <string name="select_car_brand">اختر ماركة السيارة للحصول على القائمة</string>
+    <string name="discount_percentage">نسبة الخصم</string>
+    <string name="ask_to_Call">مكالمة</string>
+    <string name="call_operator_message">هل ترغب في الاتصال بنا للحصول على بعض المساعدة؟</string>
+    <string name="call">مكالمة نحن</string>
+    <string name="moved_shop_price">سعر الورشة المتنقلة:</string>
+    <string name="select_location">مكان العميل   </string>
+    <string name="write_comments">ملاحظات إستلام السيارة</string>
+    <string name="edit_address">تعديل المكان</string>
+    <string name="service_not_available">serivce not available</string>
+    <string name="invalid_lat_long_used">invalid lat lng</string>
+    <string name="no_address_found">no address found for these coordinates</string>
+    <string name="address_found">address found</string>
+    <string name="select_car_model">select the model</string>
+    <string name="title_book_now">احجز الآن</string>
+    <string name="try_again">أعد المحاولة</string>
+    <string name="locationenable">تفعيل الموقع</string>
+    <string name="locationDisable">تحقق من تفعيل خاصية الموقع</string>
+    <string name="thanks_you_msg">شكراً لك</string>
+    <string name="success_order">تم الطلب بنجاح</string>
+    <string name="servicesSearch">ابحث عن نوع الخدمة</string>
+    <string name="description">من خلال هذه الخدمة نزودكم في موقعكم , ونقوم بحل مشكلتكم باسرع وقت ممكن</string>
+    <string name="descriptionReciveCar">من خلال هذه الخدمة نستقبل سياراتكم ونعمل على ايجاد المشكلة وسنقوم بحلها</string>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_6sdp">
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                >
+
+
+                <RadioButton
+                    android:id="@+id/radioBtn"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/view2"
+                    android:layout_alignEnd="@+id/radioGroup"
+                    android:layout_marginEnd="125dp"
+                    android:checked="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:buttonTint="@style/radioButtonOnActive"
+                    android:padding="@dimen/_10sdp"/>
+            </RadioGroup>
+            <!--<CheckBox-->
+                <!--android:id="@+id/checkBox"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:focusable="false"-->
+                <!--android:focusableInTouchMode="false"/>-->
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="saaaaaaaaas"
+                android:inputType="textMultiLine"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/radioGroup"
+                android:layout_toLeftOf="@id/description"
+                android:text="4.56"
+                android:textColor="@drawable/cheaked_color_filter"
+                android:textSize="@dimen/_12sdp"
+                android:padding="@dimen/_10sdp"/>
+
+
+
+
+
+            <View
+                android:layout_below="@+id/description"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@android:color/black"
+                android:id="@+id/view2" />
+
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
