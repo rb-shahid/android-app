@@ -88,6 +88,7 @@ public class ShopsListRecycleViewAdapter extends RecyclerView.Adapter<ShopsListR
     @SuppressLint({"RecyclerView", "SetTextI18n"})
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
+
      holder.tv_shop_name_shop_list.setText(_ShopslistRecordList.get(position).getShopName());
       holder.txt_rate.setText(_ShopslistRecordList.get(position).getShopRating());
         if(_ShopslistRecordList.get(position).getIsDiscounted().equalsIgnoreCase("1"))
